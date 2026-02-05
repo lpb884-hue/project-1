@@ -2,6 +2,22 @@
     margin: 0;
 }
 
+.pixels-page {
+background-color: yellow;
+}
+
+.waterboy-page {
+ background-color: coral;
+}
+
+.bigdaddy-page {
+background-color: red;
+}
+
+.chuckandlarry-page {
+ background-color: pink;
+}
+
 .poster-wrapper {
     min-height: 100vh;             
     display: flex;
