@@ -2,6 +2,19 @@
     margin: 0;
 }
 
+.poster-wrapper {
+    min-height: 100vh;             
+    display: flex;
+    justify-content: center;      
+    align-items: center;            
+  }
+  
+  .movie-poster {
+    max-height: 90vh;            
+    width: auto;                    
+    max-width: 90vw;                
+  }
+
 .button-container {
     display: flex;
     justify-content: center; 
