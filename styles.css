@@ -2,18 +2,6 @@
     margin: 0;
 }
 
-.poster-wrapper {
-    min-height: 100vh;             
-    display: flex;
-    justify-content: center;      
-    align-items: center;            
-  }
-  
-  .movie-poster {
-    max-height: 90vh;            
-    width: auto;                    
-    max-width: 90vw;                
-  }
 
 .button-container {
     display: flex;
@@ -64,4 +52,16 @@
     transform: scale(0.95);
     box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 
-    
+.poster-wrapper {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.movie-poster {
+  max-height: 90vh;
+  max-width: 90vw;
+  width: auto;
+  height: auto;
+}    
