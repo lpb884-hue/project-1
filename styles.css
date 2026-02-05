@@ -1,9 +1,54 @@
-.container {
+* {
+    margin: 0;
+}
+
+.button-container {
     display: flex;
-    width: 100vw;
-    height: 100vh;
-    flex-direction: column;
-    background-color: plum;
+    justify-content: center; 
+    align-items: center;     
+    height: 100vh;       
+    background-color: aquamarine;    
+  }
+  
+  .my-button {
+    padding: 30px 40px;
+    border-radius: 25px;    
+    border: color;
+    cursor: pointer;
+    line-height: 1.5;
+  }
+
+  .button-container {
+    display: flex;
     justify-content: center;
     align-items: center;
-}
+    height: 100vh;
+  }
+  
+  .my-button {
+    display: inline-block;
+    padding: 20px 32px;
+    border-radius: 30px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    text-align: center;
+  
+    transition:
+      transform 0.15s ease,
+      box-shadow 0.15s ease;
+  }
+  
+
+  .my-button:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+  }
+  
+
+  .my-button:active {
+    transform: scale(0.95);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+
+    
