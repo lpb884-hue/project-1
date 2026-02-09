@@ -15,8 +15,33 @@ background-color: red;
 }
 
 .chuckandlarry-page {
- background-color: pink;
+background-color: pink;
 }
+
+.fiftyfirst-page {
+background-color: beige;
+}
+
+.billymadison-page {
+background-color: cornflowerblue;
+}
+
+.grownups-page {
+background-color: beige;
+}
+
+.uncutgems-page {
+background-color: black;
+}
+
+.happygilmore-page {
+background-color: green;
+}
+
+.click-page {
+background-color: blue;
+}
+
 
 .poster-wrapper {
     min-height: 100vh;             
