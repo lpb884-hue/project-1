@@ -42,6 +42,11 @@ background-color: green;
 background-color: blue;
 }
 
+.audio-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
 
 .poster-wrapper {
     min-height: 100vh;             
