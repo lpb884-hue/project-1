@@ -1,5 +1,5 @@
 * {
-    margin: 0;
+    margin: 5;
 }
 
 
@@ -57,7 +57,7 @@ background-color: blue;
 }
 
 .poster-wrapper {
-  height: calc(100vh - 120px);
+  height: 600px;
   display: flex;
   justify-content: center;
   align-items: center;
