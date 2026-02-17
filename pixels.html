@@ -1,32 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width,initial-scale=1">
-        <title>Pixels</title>
-        <link rel="stylesheet" href="styles.css">
-        <link rel="icon" type="image/jpg" href="images/pixels.jpg">
-    </head>
-        
-        <body class="pixels-page">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pixels</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" href="images/pixels.jpg">
+</head>
 
-        <h1>#10: Pixels</h1>
+<body class="movie-page pixels-page">
 
-    <div class="audio-wrapper">
-        <audio controls>
-        <source src="music/pixels.mp3" type="audio/mpeg">
-        </audio>
-    </div>
-        
-    <div class="poster-wrapper">
-        <img src="images/pixels.jpg" alt="Pixels movie poster" class="movie-poster">
-    </div>
+  <h1>#10: Pixels</h1>
 
-        <div class="nav-buttons">
-            <a href="index.html" class="prev-button">← Back</a>
-            <a href="waterboy.html" class="next-button">Next →</a>
-          </div>
+  <div class="audio-wrapper">
+    <audio controls>
+      <source src="music/pixels.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+
+  <div class="movie-layout">
+
     
-    </body>
+    <div class="left-column">
+      <h3>Cast Top 3</h3>
 
+      <div class="actor-row">
+        <div class="actor-card">
+          <img src="images/kevinjames.jpg" alt="Kevin James">
+          <p>Kevin James</p>
+        </div>
+
+        <div class="actor-card">
+          <img src="images/michellemonaghan.jpg" alt="Michelle Monaghan">
+          <p>Michelle Monaghan</p>
+        </div>
+
+        <div class="actor-card">
+          <img src="images/peterdinklage.jpg" alt="Peter Dinklage">
+          <p>Peter Dinklage</p>
+        </div>
+      </div>
+
+      <div class="rotten-box">
+        <img src="images/pixelsrt.png" alt="Rotten Tomatoes score">
+      </div>
+    </div>
+
+    
+    <div class="poster-wrapper">
+      <img src="images/pixels.jpg" class="movie-poster" alt="Pixels Poster">
+    </div>
+
+   
+    <div class="right-column">
+      <h3>Why I Like It</h3>
+      <p>
+        Pixels is the first movie to crack my top ten list. I haven't rewatched this movie as much as I have other ones on this list, but I really enjoyed this one when I watched it as a kid. I think that this movie has one of the more interesting plots that any Adam Sandler movie has. The 80's feel of this movie from the arcade games to the soundtrack is very strong and nostalgic. The humor lands, and the action scenes are well made with good suspense. This movie is a good watch for anyone who wants to borrow some nostalgia and a great watch for anyone who grew up or lived through the 80's.
+      </p>
+      <div class="rating">
+        <span class="you-rate">YOU RATE →</span>
+        <div class="stars">
+          <input type="radio" id="star5" name="rating">
+          <label for="star5">★</label>
+  
+          <input type="radio" id="star4" name="rating">
+          <label for="star4">★</label>
+  
+          <input type="radio" id="star3" name="rating">
+          <label for="star3">★</label>
+  
+          <input type="radio" id="star2" name="rating">
+          <label for="star2">★</label>
+  
+          <input type="radio" id="star1" name="rating">
+          <label for="star1">★</label>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- FOOTER -->
+  <div class="bottom-bar">
+
+    
+
+    <a href="index.html" class="back-button">Back to Home →</a>
+
+  </div>
+
+  <script src="rating.js"></script>
+
+</body>
 </html>
