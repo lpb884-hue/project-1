@@ -13,8 +13,11 @@ h1 {
 }
 
 body {
-    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
     font-family: Arial, sans-serif;
+    overflow: hidden;
 }
 
 .pixels-page {
