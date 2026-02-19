@@ -79,7 +79,7 @@ font-style: normal;
   background-color: blue;
   }
   
-  /* ---------- AUDIO ---------- */
+ 
   
   .audio-wrapper {
       position: absolute;
@@ -88,7 +88,7 @@ font-style: normal;
       transform: translateX(-50%);
   }
   
-  /* ---------- MAIN LAYOUT ---------- */
+  
   
   .movie-layout {
       flex: 1;
@@ -100,7 +100,7 @@ font-style: normal;
       align-items: center;
   }
   
-  /* ---------- LEFT COLUMN ---------- */
+ 
   
   .left-column {
       display: flex;
@@ -139,7 +139,7 @@ font-style: normal;
       text-align: center;
   }
   
-  /* Rotten Tomatoes */
+  
   
   .rotten-box {
       width: 100%;
@@ -164,7 +164,7 @@ font-style: normal;
     box-shadow: 0 8px 16px rgba(0,0,0,0.25);
 }
   
-  /* ---------- POSTER ---------- */
+  
   
   .poster-wrapper {
       display: flex;
@@ -187,7 +187,7 @@ font-style: normal;
     transform: scale(1.08);
 }
   
-  /* ---------- RIGHT COLUMN ---------- */
+ 
   
   .right-column {
       display: flex;
@@ -199,7 +199,7 @@ font-style: normal;
       line-height: 1.6;
   }
   
-  /* ---------- FOOTER ---------- */
+  
   
   .bottom-bar {
       height: 90px;
@@ -210,7 +210,7 @@ font-style: normal;
       border-top: 2px solid black;
   }
   
-  /* Rating */
+ 
   
   .rating {
     margin-top: 25px;
@@ -268,7 +268,7 @@ font-style: normal;
       transform: scale(2.5); 
   }
   
-  /* Back Button */
+  
   
   .back-button {
       text-decoration: none;
