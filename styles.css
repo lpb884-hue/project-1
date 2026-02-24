@@ -181,7 +181,9 @@ font-family:  "Betania Patmos GDL", cursive;
   
   .rotten-box img {
       width: 100%;
-      max-width: 100%;
+      max-width: 350px;
+      height: auto;
+      display: block;
       box-shadow: 0 6px 18px rgba(0,0,0,0.2);
       border-radius: 8px;
       transition: 0.2s ease;
@@ -205,8 +207,12 @@ font-family:  "Betania Patmos GDL", cursive;
   }
   
   .movie-poster {
-      max-height: 500px;
-      width: auto;
+      width: 100%;
+      max-width: 320px;
+      height: auto;
+      border-radius: 20px;
+      display: block;
+      margin: 0 auto;
        background: rgba(0, 0, 0, 0.45);
   border-radius: 1.75rem;
   box-shadow: 0 30px 60px rgba(0, 0, 0, 0.7);
@@ -349,80 +355,78 @@ font-family:  "Betania Patmos GDL", cursive;
 
 
   @media (max-width: 1100px) {
-    .shelf {
-        grid-template-columns: repeat(3, 1fr);
-    }
-}
-@media (max-width: 768px) {
-    .shelf {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 20px;
-        padding: 40px 20px;
-    }
 
-    .dvd img {
-        height: 220px;
-    }
-}
-@media (max-width: 480px) {
-    .shelf {
-        grid-template-columns: 1fr;
-    }
-
-    .dvd img {
-        height: 240px;
-    }
-}
-
-@media (max-width: 1000px) {
     .movie-layout {
-        grid-template-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+      gap: 40px;
+      margin: 100px 40px 0 40px;
     }
-
-    .poster-wrapper {
-        grid-column: span 2;
-        order: -1;
-    }
-
+  
     .movie-poster {
-        max-height: 400px;
+      max-width: 320px;
     }
-}
-@media (max-width: 768px) {
-    .movie-layout {
-        grid-template-columns: 1fr;
-        margin: 120px 20px 0 20px;
-        gap: 30px;
+  
+    .rotten-box img {
+      max-width: 360px;
     }
-
+  }
+  
+  @media (max-width: 768px) {
+  
     h1 {
-        font-size: 28px;
-        top: 20px;
-        left: 20px;
+        position: absolute;
+        top: 110px;
+        font-size: 26px;
+      }
+    
+    h3{
+        margin-top: 100px; 
+      }
+    
+      .audio-wrapper {
+        position: absolute;
+        top: 40px;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+  
+    .movie-layout {
+      grid-template-columns: 1fr;
+      margin: 120px 20px 0 20px;
+      gap: 40px;
     }
-
-    .audio-wrapper {
-        top: 20px;
-    }
-
+  
     .actor-row {
-        justify-content: center;
-        flex-wrap: wrap;
+      justify-content: center;
     }
-
+  
     .movie-poster {
-        max-height: 350px;
-        padding: 1rem;
+      max-width: 300px;
     }
-
-    .rating {
-        padding: 14px 24px;
+  
+    .rotten-box img {
+      max-width: 300px;
     }
-
+  
     .stars label {
-        font-size: 32px;
+      font-size: 32px;
     }
-}
+  
+    .rating {
+      padding: 14px 24px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+  
+    .shelf {
+      grid-template-columns: 1fr;
+    }
+  
+    .dvd img {
+      height: 220px;
+    }
+  }
 
 
 
