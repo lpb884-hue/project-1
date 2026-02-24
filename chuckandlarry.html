@@ -1,24 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width,initial-scale=1">
-        <title>I Now Pronounce You Chuck & Larry</title>
-        <link rel="stylesheet" href="styles.css">
-        <link rel="icon" type="image/jpg" href="images/chuckandlarry.jpg">
-    </head>
-    <body>
-        <h1>#7: I Now Pronounce You Chuck & Larry</h1>
-        <div class="poster-wrapper">
-            <img src="images/chuckandlarry.jpg" alt="Chuck and Larry movie poster" class="movie-poster">
-          </div>
-          
-        <body class="chuckandlarry-page">
-        <div class="nav-buttons">
-            <a href="bigdaddy.html" class="prev-button">← Back</a>
-            <a href="fiftyfirst.html" class="next-button">Next →</a>
-          </div>
-    
-    </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>I Now Pronounce You Chuck & Larry</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" href="images/chuckandlarry.jpg">
+</head>
 
+<body class="movie-page chuckandlarry-page">
+
+  <h1>#7: I Now Pronounce <br>You Chuck & Larry (2007)</h1>
+
+  <div class="audio-wrapper">
+    <audio controls>
+      <source src="music/chuckandlarry.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+
+  <div class="movie-layout">
+
+    
+    <div class="left-column">
+      <h3>Cast Top 3 (Besides Adam Sandler)</h3>
+
+      <div class="actor-row">
+        <div class="actor-card">
+            <a href="https://en.wikipedia.org/wiki/Kevin_James"> 
+          <img src="images/larry.jpg" alt="Kevin James">
+        </a>
+          <p>Kevin <br> James</p>
+        </div>    
+
+        <div class="actor-card">
+            <a href="https://en.wikipedia.org/wiki/Jessica_Biel"> 
+          <img src="images/alex.webp" alt="Jessica Biel">
+            </a>
+          <p>Jessica <br> Beil</p>
+        </div>
+
+        <div class="actor-card">
+            <a href="https://en.wikipedia.org/wiki/Dan_Aykroyd"> 
+          <img src="images/cpt.jpg" alt="Dan Aykroyd">
+            </a>
+          <p>Dan <br> Aykroyd</p>
+        </div>
+      </div>
+
+      <div class="rotten-box">
+        <a href="https://www.rottentomatoes.com/m/i_now_pronounce_you_chuck_and_larry"> 
+        <img src="images/chuckandlarryrt.png" alt="Rotten Tomatoes score">
+        </a>
+      </div>
+    </div>
+
+    
+    <div class="poster-wrapper">
+        <a href="https://www.youtube.com/watch?v=y2hxNuaju78" >
+          <img src="images/chuckandlarry.jpg" class="movie-poster" alt="I Now Pronounce You Chuck & Larry Poster">
+        </a>
+      </div>
+
+   
+    <div class="right-column">
+      <h2>Why I Like It</h2>
+      <p>
+        At #7, I have another Adam Sandler that is different from the rest. This movie has the most serius themes out of any of his movies, even if it isn't taking itself to seriously. I Now Pronounce You Chuck & Larry is about the dismantling of homophobia and the importance of family. Even though this movie is funny, it has a very good message of being comfortable in sexuality, and being openluy gay in masculine environments such as a firehouse. I also like this movie because Kevin James feels like more of a lead character in this one, and Adam Sandler does well in a backseat kind of role.
+      </p>
+      <div class="rating">
+        <span class="you-rate">YOU RATE →</span>
+        <div class="stars">
+          <input type="radio" id="star5" name="rating">
+          <label for="star5">★</label>
+  
+          <input type="radio" id="star4" name="rating">
+          <label for="star4">★</label>
+  
+          <input type="radio" id="star3" name="rating">
+          <label for="star3">★</label>
+  
+          <input type="radio" id="star2" name="rating">
+          <label for="star2">★</label>
+  
+          <input type="radio" id="star1" name="rating">
+          <label for="star1">★</label>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="bottom-bar">
+
+    
+
+    <a href="index.html" class="back-button">Back to Home →</a>
+
+  </div>
+
+  <script src="rating.js"></script>
+
+</body>
 </html>

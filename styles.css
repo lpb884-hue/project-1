@@ -11,12 +11,7 @@
       left: 50px;
       font-size: 42px;   
     letter-spacing: 2px;
-    transition: 0.2s ease;
   }
-
-  h1:hover {
-    transform: scale(1.08);
-}
   
   body {
       height: 100vh;
@@ -36,37 +31,51 @@
     background: cyan;
 }
 
-.waterboy-page .bottom-bar {
-    background: navy;
-}
-  
   .waterboy-page {
    background-color: coral;
-   font-family: "Oswald", sans-serif;
-font-weight: 700;
-font-style: normal;
+   font-family: 'Idiqlat Static', serif;
   }
   
+  .waterboy-page .bottom-bar {
+    background: goldenrod;
+}
+
   .bigdaddy-page {
-  background-color: red;
+  background-color: crimson;
   }
   
+  .bigdaddy-page .bottom-bar {
+    background: darkblue;
+}
   .chuckandlarry-page {
   background-color: pink;
   }
   
+  .chuckandlarry-page .bottom-bar {
+    background: palevioletred;
+}
   .fiftyfirst-page {
   background-color: darksalmon;
   }
-  
+
+  .fiftyfirst-page .bottom-bar {
+    background-color: lightskyblue;
+    }
+    
   .billymadison-page {
   background-color: cornflowerblue;
   }
   
+  .billymadison-page .bottom-bar {
+    background: forestgreen;
+}
   .grownups-page {
-  background-color: yellow;
+  background-color: deepskyblue;
   }
   
+  .grownups-page .bottom-bar {
+    background: yellow;
+}
   .uncutgems-page {
   background-color: black;
   }
@@ -75,11 +84,18 @@ font-style: normal;
   background-color: green;
   }
   
+  .happygilmore-page .bottom-bar {
+    background: gold;
+}
   .click-page {
-  background-color: blue;
+  background-color: dodgerblue;
   }
+
+  .click-page .bottom-bar {
+    background: mediumblue;
+}
   
- 
+  
   
   .audio-wrapper {
       position: absolute;
@@ -100,7 +116,7 @@ font-style: normal;
       align-items: center;
   }
   
- 
+  
   
   .left-column {
       display: flex;
@@ -139,7 +155,7 @@ font-style: normal;
       text-align: center;
   }
   
-  
+
   
   .rotten-box {
       width: 100%;
@@ -164,7 +180,7 @@ font-style: normal;
     box-shadow: 0 8px 16px rgba(0,0,0,0.25);
 }
   
-  
+ 
   
   .poster-wrapper {
       display: flex;
@@ -187,7 +203,7 @@ font-style: normal;
     transform: scale(1.08);
 }
   
- 
+  
   
   .right-column {
       display: flex;
@@ -199,7 +215,7 @@ font-style: normal;
       line-height: 1.6;
   }
   
-  
+
   
   .bottom-bar {
       height: 90px;

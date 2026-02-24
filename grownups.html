@@ -1,34 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width,initial-scale=1">
-        <title>Grown Ups</title>
-        <link rel="stylesheet" href="styles.css">
-        <link rel="icon" type="image/jpg" href="images/grownups.jpg">
-    </head>
-    
-        <body class="grownups-page">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Grown Ups</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" href="images/grownups.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Coral+Pixels&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
 
-        <h1>#4: Grown Ups</h1>
-        
-    <div class="audio-wrapper">
-        <audio controls>
-        <source src="music/grownups.mp3" type="audio/mpeg">
-        </audio>
+<body class="movie-page grownups-page">
+
+  <h1>#4: Grown Ups (2010)</h1>
+
+  <div class="audio-wrapper">
+    <audio controls>
+      <source src="music/grownups.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+
+  <div class="movie-layout">
+
+    
+    <div class="left-column">
+      <h3>Cast Top 3 (Besides Adam Sandler)</h3>
+
+      <div class="actor-row">
+        <div class="actor-card">
+            <a href="https://en.wikipedia.org/wiki/Kevin_James"> 
+          <img src="images/eric.webp" alt="Kevin James">
+        </a>
+          <p>Kevin <br> James</p>
+        </div>    
+
+        <div class="actor-card">
+            <a href="https://en.wikipedia.org/wiki/Chris_Rock"> 
+          <img src="images/kurt.jpg" alt="Chris Rock">
+            </a>
+          <p>Chris <br> Rock</p>
+        </div>
+
+        <div class="actor-card">
+            <a href="https://en.wikipedia.org/wiki/David_Spade"> 
+          <img src="images/higgins.webp" alt="David Spade">
+            </a>
+          <p>David <br> Spade</p>
+        </div>
+      </div>
+
+      <div class="rotten-box">
+        <a href="https://www.rottentomatoes.com/m/grown_ups"> 
+        <img src="images/grownupsrt.png" alt="Rotten Tomatoes score">
+        </a>
+      </div>
     </div>
-        
-        <div class="poster-wrapper">
-            <img src="images/grownups.jpg" alt="grown ups movie poster" class="movie-poster">
-          </div>
 
-        
-            
-        <div class="nav-buttons">
-            <a href="billymadison.html" class="prev-button">← Back</a>
-            <a href="uncutgems.html" class="next-button">Next →</a>
-          </div>
     
-    </body>
+    <div class="poster-wrapper">
+        <a href="https://www.youtube.com/watch?v=e01NVCveGkg" >
+          <img src="images/grownups.jpg" class="movie-poster" alt="Grown Ups Poster">
+        </a>
+      </div>
 
+   
+    <div class="right-column">
+      <h2>Why I Like It</h2>
+      <p>
+        Grown Ups is far and away Sandler's best movie with an ensemble cast. I have this movie at #4 for basically that exact reason. Adam Sandler gets all of his buddies together in this one, and it is a blast. I would say that this movie is Sandler's most modern classic, as it is one of his more well-known movies post-2000s. This movie has so many characters, but none of them are forgettable. Grown Ups is a great summer, feel-good, buddy movie and propably my most rewatched Adam Sandler movie besides Happy Gilmore. If this movie is ever on, I will sit down and watch the rest of it because its just that good and rewatchable.
+      </p>
+      <div class="rating">
+        <span class="you-rate">YOU RATE →</span>
+        <div class="stars">
+          <input type="radio" id="star5" name="rating">
+          <label for="star5">★</label>
+  
+          <input type="radio" id="star4" name="rating">
+          <label for="star4">★</label>
+  
+          <input type="radio" id="star3" name="rating">
+          <label for="star3">★</label>
+  
+          <input type="radio" id="star2" name="rating">
+          <label for="star2">★</label>
+  
+          <input type="radio" id="star1" name="rating">
+          <label for="star1">★</label>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  
+  <div class="bottom-bar">
+
+    
+
+    <a href="index.html" class="back-button">Back to Home →</a>
+
+  </div>
+
+  <script src="rating.js"></script>
+
+</body>
 </html>

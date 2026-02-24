@@ -1,32 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width,initial-scale=1">
-        <title>50 First Dates</title>
-        <link rel="stylesheet" href="styles.css">
-        <link rel="icon" type="image/jpg" href="images/50first.jpg">
-    </head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>50 First Dates</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" href="images/50first.jpg">
+</head>
 
-        <body class="fiftyfirst-page">
+<body class="movie-page fiftyfirst-page">
 
-        <h1>#6: 50 First Dates</h1>
+  <h1>#6: 50 First Dates <br>(2004)</h1>
 
-    <div class="audio-wrapper">
-        <audio controls>
-        <source src="music/fiftyfirst.mp3" type="audio/mpeg">
-        </audio>
-    </div>
+  <div class="audio-wrapper">
+    <audio controls>
+      <source src="music/fiftyfirst.mp3" type="audio/mpeg">
+    </audio>
+  </div>
 
-    <div class="poster-wrapper">
-        <img src="images/50first.jpg" alt="50 first dates movie poster" class="movie-poster">
-    </div>
+  <div class="movie-layout">
 
-        <div class="nav-buttons">
-            <a href="chuckandlarry.html" class="prev-button">← Back</a>
-            <a href="billymadison.html" class="next-button">Next →</a>
-          </div>
     
-    </body>
+    <div class="left-column">
+      <h3>Cast Top 3 (Besides Adam Sandler)</h3>
 
+      <div class="actor-row">
+        <div class="actor-card">
+            <a href="https://en.wikipedia.org/wiki/Drew_Barrymore"> 
+          <img src="images/lucywhit.webp" alt="Drew Barrymore">
+            </a>
+          <p>Drew Barrymore</p>
+        </div>
+
+        <div class="actor-card">
+            <a href="https://en.wikipedia.org/wiki/Rob_Schneider"> 
+          <img src="images/ula.jpg" alt="Rob Schneider">
+            </a>
+          <p>Rob Schneider</p>
+        </div>
+
+        <div class="actor-card">
+            <a href="https://en.wikipedia.org/wiki/Sean_Astin"> 
+          <img src="images/doug.webp" alt="Sean Astin">
+            </a>
+          <p>Sean Astin</p>
+        </div>
+      </div>
+
+      <div class="rotten-box">
+        <a href="https://www.rottentomatoes.com/m/50_first_dates"> 
+        <img src="images/fiftyfirstrt.png" alt="Rotten Tomatoes score">
+        </a>
+      </div>
+    </div>
+
+    
+    <div class="poster-wrapper">
+        <a href="https://www.youtube.com/watch?v=17KJk3ErIx0" >
+      <img src="images/50first.jpg" class="movie-poster" alt="Waterboy Poster">
+        </a>
+    </div>
+
+   
+    <div class="right-column">
+      <h3>Why I Like It</h3>
+      <p>
+        At #6, I have what I think is Adam Sandler's best true rom-coms, and also one of the best rom-coms of all time. The plot of this movie is very unique and cool, and I enjoy the Hawaii setting of it. This movie created a fictional version of amnesia, where Drew Barrymore's character experiences the same day over and over again because of a traumatic head injury. Adam Sandler's character having to win her over everyday makes for a very interesting love story.  We also get to see how Drew Barrymore's dad and brother have to take care of her, and it is powerful to see the lengths they go to not have her find out about her accident.
+      </p>
+      <div class="rating">
+        <span class="you-rate">YOU RATE →</span>
+        <div class="stars">
+          <input type="radio" id="star5" name="rating">
+          <label for="star5">★</label>
+  
+          <input type="radio" id="star4" name="rating">
+          <label for="star4">★</label>
+  
+          <input type="radio" id="star3" name="rating">
+          <label for="star3">★</label>
+  
+          <input type="radio" id="star2" name="rating">
+          <label for="star2">★</label>
+  
+          <input type="radio" id="star1" name="rating">
+          <label for="star1">★</label>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="bottom-bar">
+
+    
+
+    <a href="index.html" class="back-button">Back to Home →</a>
+
+  </div>
+
+  <script src="rating.js"></script>
+
+</body>
 </html>

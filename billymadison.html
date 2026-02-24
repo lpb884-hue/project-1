@@ -1,34 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width,initial-scale=1">
-        <title>Billy Madison</title>
-        <link rel="stylesheet" href="styles.css">
-        <link rel="icon" type="image/jpg" href="images/billymadison.jpg">
-    </head>
-        
-        <body class="billymadison-page">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Billy Madison</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" href="images/billymadison.jpg">
+</head>
 
-        <h1>#5: Billy Madison</h1>
+<body class="movie-page billymadison-page">
 
-    <div class="audio-wrapper">
-        <audio controls>
-        <source src="music/billymadison.mp3" type="audio/mpeg">
-        </audio>
-    </div>
+  <h1>#5: Billy Madison <br>(1995)</h1>
 
-    <div class="poster-wrapper">
-        <img src="images/billymadison.jpg" alt="billy madison movie poster" class="movie-poster">
-    </div>
+  <div class="audio-wrapper">
+    <audio controls>
+      <source src="music/billymadison.mp3" type="audio/mpeg">
+    </audio>
+  </div>
 
-       
-            
-        <div class="nav-buttons">
-            <a href="fiftyfirst.html" class="prev-button">← Back</a>
-            <a href="grownups.html" class="next-button">Next →</a>
-          </div>
+  <div class="movie-layout">
+
     
-    </body>
+    <div class="left-column">
+      <h3>Cast Top 3 (Besides Adam Sandler)</h3>
 
+      <div class="actor-row">
+        <div class="actor-card">
+            <a href="https://en.wikipedia.org/wiki/Bridgette_Wilson"> 
+          <img src="images/vv.jpg" alt="Bridgette Wilson">
+        </a>
+          <p>Bridgette <br> Wilson</p>
+        </div>    
+
+        <div class="actor-card">
+            <a href="https://en.wikipedia.org/wiki/Bradley_Whitford"> 
+          <img src="images/brad.webp" alt="Bradley Whitford">
+            </a>
+          <p>Bradley <br> Whitford</p>
+        </div>
+
+        <div class="actor-card">
+            <a href="https://en.wikipedia.org/wiki/Darren_McGavin"> 
+          <img src="images/maddad.webp" alt="Darren McGavin">
+            </a>
+          <p>Darren <br> McGavin</p>
+        </div>
+      </div>
+
+      <div class="rotten-box">
+        <a href="https://www.rottentomatoes.com/m/billy_madison"> 
+        <img src="images/billymadisonrt.png" alt="Rotten Tomatoes score">
+        </a>
+      </div>
+    </div>
+
+    
+    <div class="poster-wrapper">
+        <a href="https://www.youtube.com/watch?v=V2Q40rXJuMU" >
+          <img src="images/billymadison.jpg" class="movie-poster" alt="Billy Madison Poster">
+        </a>
+      </div>
+
+   
+    <div class="right-column">
+      <h2>Why I Like It</h2>
+      <p>
+        This list is officially halfway over. At #5, I have Billy Madison. Billy Madison is a movie that really has it all and it is like a combination of all great Adam Sandler movies. It has a love interest, a great villian, Sandler plays a man-child, and it is by far one of his most quoteable movies. This movie is a top-3 Adam Sandler classic to me, and I wish I could put it higher on this list because #5 feels way too low. One of my personal favorite quotes: "Of course I peed my pants! Everybody my age pees their pants; it's the coolest!"
+     </p>
+      <div class="rating">
+        <span class="you-rate">YOU RATE →</span>
+        <div class="stars">
+          <input type="radio" id="star5" name="rating">
+          <label for="star5">★</label>
+  
+          <input type="radio" id="star4" name="rating">
+          <label for="star4">★</label>
+  
+          <input type="radio" id="star3" name="rating">
+          <label for="star3">★</label>
+  
+          <input type="radio" id="star2" name="rating">
+          <label for="star2">★</label>
+  
+          <input type="radio" id="star1" name="rating">
+          <label for="star1">★</label>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+  <div class="bottom-bar">
+
+    
+
+    <a href="index.html" class="back-button">Back to Home →</a>
+
+  </div>
+
+  <script src="rating.js"></script>
+
+</body>
 </html>

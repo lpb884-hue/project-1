@@ -1,32 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width,initial-scale=1">
-        <title>Happy Gilmore</title>
-        <link rel="stylesheet" href="styles.css">
-        <link rel="icon" type="image/jpg" href="images/happygilmore.jpg">
-    </head>
-         
-         <body class="happygilmore-page">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Happy Gilmore</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" href="images/happygilmore.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Coral+Pixels&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
 
-        <h1>#2: Happy Gilmore</h1>
+<body class="movie-page happygilmore-page">
 
-    <div class="audio-wrapper">
-        <audio controls>
-        <source src="music/happygilmore.mp3" type="audio/mpeg">
-        </audio>
-    </div>
+  <h1>#2: Happy Gilmore <br>(1996)</h1>
 
-    <div class="poster-wrapper">
-            <img src="images/happygilmore.jpg" alt="happygilmore movie poster" class="movie-poster">
-    </div>
+  <div class="audio-wrapper">
+    <audio controls>
+      <source src="music/happygilmore.mp3" type="audio/mpeg">
+    </audio>
+  </div>
 
-        <div class="nav-buttons">
-            <a href="uncutgems.html" class="prev-button">← Back</a>
-            <a href="click.html" class="next-button">Next →</a>
-          </div>
+  <div class="movie-layout">
+
     
-    </body>
+    <div class="left-column">
+      <h3>Cast Top 3 (Besides Adam Sandler)</h3>
 
+      <div class="actor-row">
+        <div class="actor-card">
+            <a href="https://en.wikipedia.org/wiki/Julie_Bowen"> 
+          <img src="images/julie.jpg" alt="Julie Bowen">
+        </a>
+          <p>Julie <br> Bowen</p>
+        </div>    
+
+        <div class="actor-card">
+            <a href="https://en.wikipedia.org/wiki/Carl_Weathers"> 
+          <img src="images/chubbs.jpg" alt="Carl Weathers">
+            </a>
+          <p>Carl <br> Weathers</p>
+        </div>
+
+        <div class="actor-card">
+            <a href="https://en.wikipedia.org/wiki/Christopher_McDonald"> 
+          <img src="images/shoota.webp" alt="Shooter McGavin">
+            </a>
+          <p>Christopher <br> McDonald</p>
+        </div>
+      </div>
+
+      <div class="rotten-box">
+        <a href="https://www.rottentomatoes.com/m/happy_gilmore"> 
+        <img src="images/happygilmorert.png" alt="Rotten Tomatoes score">
+        </a>
+      </div>
+    </div>
+
+    
+    <div class="poster-wrapper">
+        <a href="https://www.youtube.com/watch?v=y1emDAYCfVQ" >
+          <img src="images/happygilmore.jpg" class="movie-poster" alt="Happy Gilmore Poster">
+        </a>
+      </div>
+
+   
+    <div class="right-column">
+      <h2>Why I Like It</h2>
+      <p>
+        THE Adam Sandler movie. Everyone should know this movie. At #2 with strong case for #1, I have Happy Gilmore. I absolutely love this movie. I think that Happy Gilmore is the best sports comedy of all time, and one of the best sports movies in general. It's funny, inspiring, and so rewatchable. I don't think I could ever get tired of this movie. If I was stranded on and island and could only watch one movie it'd probably be this one. Happy Gilmore has such a great love interest in Julie Bowen's character, and Christopher McDonald plays a fantastic villian as Shooter McGavin. The cast of this movie is stacked, the soundtrack is great, and the golf scenes manage to not feel super repetative. Happy Gilmore 2 is a digrace to the legacy of this movie. R.I.P. Chubbs.
+      </p>
+      <div class="rating">
+        <span class="you-rate">YOU RATE →</span>
+        <div class="stars">
+          <input type="radio" id="star5" name="rating">
+          <label for="star5">★</label>
+  
+          <input type="radio" id="star4" name="rating">
+          <label for="star4">★</label>
+  
+          <input type="radio" id="star3" name="rating">
+          <label for="star3">★</label>
+  
+          <input type="radio" id="star2" name="rating">
+          <label for="star2">★</label>
+  
+          <input type="radio" id="star1" name="rating">
+          <label for="star1">★</label>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+  <div class="bottom-bar">
+
+    
+
+    <a href="index.html" class="back-button">Back to Home →</a>
+
+  </div>
+
+  <script src="rating.js"></script>
+
+</body>
 </html>
